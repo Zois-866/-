@@ -1,5 +1,6 @@
 node_modules/
 .DS_Store
 *.tmp
-out/preview.mp4
 out/preview*.mp4
+# 原檔 125MB 超過 GitHub 100MB 上限，用 npm run render 重新生成；倉庫裡放壓縮版 stream_share.mp4
+out/stream.mp4
