@@ -2,3 +2,4 @@ node_modules/
 .DS_Store
 *.tmp
 out/preview.mp4
+out/preview*.mp4
