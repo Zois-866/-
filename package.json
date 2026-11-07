@@ -1,0 +1,35 @@
+{
+  "name": "stream-of-consciousness-mv",
+  "version": "1.0.0",
+  "description": "60s stream-of-consciousness MV (Remotion) for Messages From The Stars",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Stream out/stream.mp4",
+    "still": "remotion still src/index.ts Stream",
+    "typecheck": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zois-866/-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zois-866/-/issues"
+  },
+  "homepage": "https://github.com/Zois-866/-#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/media-utils": "^4.0.541",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@fontsource/space-mono": "^5.3.0",
+    "@fontsource/vt323": "^5.3.0",
+    "@types/react": "^18.3.31",
+    "typescript": "^5.9.3"
+  }
+}
