@@ -79,19 +79,19 @@ export const SCENES: Scene[] = [
   // ③ Verse 1 — all alone… fading into blue
   {img: '11_astronaut', at: 12, t: 'fade', link: '星系的黑 → 黑裡一個人在漂', pos: '50% 50%', zoom: [1.25, 1.05], pan: [0, 2, 0, -2]},
   {img: '12_earth', at: 14, t: 'iris', link: '漂離的人 → 遠處的家（藍色的圓）', pos: '50% 50%', zoom: [1.35, 1.1], iris: [50, 50]},
-  {img: '13_deepblue', at: 16, t: 'fade', link: '地球的藍 → 沉進深海的藍 “fading into blue”', pos: '50% 40%', zoom: [1.05, 1.2], pan: [0, -3, 0, 3]},
+  {img: '13_deepblue', at: 16, t: 'fade', link: '地球的藍 → 沉進深海的藍 “fading into blue”', pos: '50% 22%', zoom: [1.05, 1.2], pan: [0, -3, 0, 3]},
   {img: '14_jellyfish', at: 18, t: 'fade', link: '漂浮的人 → 漂浮的水母（無能為力）', pos: '50% 50%', zoom: [1.1, 1.25]},
   // ④ Pre-Chorus — like a flash… high, high, high… rescue me
-  {img: '15_lightning', at: 20, t: 'fade', link: '水母的觸鬚 → 閃電的分叉', pos: '50% 40%', zoom: [1.15, 1.05]},
+  {img: '15_lightning', at: 20, t: 'fade', link: '水母的觸鬚 → 閃電的分叉', pos: '42% 50%', zoom: [1.15, 1.05]},
   {img: '16_rocket', at: 22, t: 'cut', link: '閃電劈下 → 火箭衝上 “sending me”', pos: '50% 55%', zoom: [1.1, 1.3], pan: [0, 4, 0, -4]},
-  {img: '17_balloon', at: HIGHS[0] / BAR, t: 'cut', link: 'high → 熱氣球', pos: '50% 45%', zoom: [1.15, 1.3], pan: [0, 3, 0, -3]},
-  {img: '18_birds', at: HIGHS[1] / BAR, t: 'cut', link: 'high → 更高的鳥群（第三個 high 打一下推鏡）', pos: '50% 40%', zoom: [1.1, 1.3], pan: [0, 3, 0, -3]},
+  {img: '17_balloon', at: HIGHS[0] / BAR, t: 'cut', link: 'high → 熱氣球', pos: '62% 30%', zoom: [1.15, 1.3], pan: [0, 3, 0, -3]},
+  {img: '18_birds', at: HIGHS[1] / BAR, t: 'cut', link: 'high → 更高的鳥群（第三個 high 打一下推鏡）', pos: '30% 35%', zoom: [1.1, 1.3], pan: [0, 3, 0, -3]},
   {img: '19_hand', at: 24, t: 'fade', link: '飛向天空 → 伸向天空的手 “you rescue me”', pos: '50% 50%', zoom: [1.2, 1.05]},
   {img: '20_lighthouse', at: 25, t: 'fade', link: '伸出的手 → 黑暗裡伸出的光', pos: '50% 40%', zoom: [1.05, 1.18]},
-  {img: '21_lifebuoy', at: 26, t: 'iris', link: '燈塔的救援 → 救生圈（圓）', pos: '50% 50%', zoom: [1.1, 1.25], iris: [50, 50]},
-  {img: '22_sunrise', at: 27, t: 'iris', link: '救生圈的圓 → 太陽的圓：得救了', pos: '50% 50%', zoom: [1.05, 1.2], iris: [50, 50]},
+  {img: '21_lifebuoy', at: 26, t: 'iris', link: '燈塔的救援 → 救生圈（圓）', pos: '20% 50%', zoom: [1.1, 1.25], iris: [35, 50]},
+  {img: '22_sunrise', at: 27, t: 'iris', link: '救生圈的圓 → 太陽的圓：得救了', pos: '50% 45%', zoom: [1.05, 1.2], iris: [60, 40]},
   // ⑤ End — 回到星空，閉環
-  {img: '23_milkyway', at: 28, t: 'flash', link: '太陽 → 回到一開始的星空', pos: '50% 50%', zoom: [1.15, 1.05]},
+  {img: '23_milkyway', at: 28, t: 'flash', link: '太陽的光 → 射向銀河的一道光：回到星空，訊息送達', pos: '48% 50%', zoom: [1.15, 1.05]},
 ];
 
 // 歌詞（輸出時間，秒）。起點來自 whisper 詞級時間戳，換算到剪接後的時間軸。
