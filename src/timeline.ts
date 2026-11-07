@@ -86,8 +86,8 @@ export const SCENES: Scene[] = [
   {img: '16_rocket', at: 22, t: 'cut', link: '閃電劈下 → 火箭衝上 “sending me”', pos: '50% 55%', zoom: [1.1, 1.3], pan: [0, 4, 0, -4]},
   {img: '17_balloon', at: HIGHS[0] / BAR, t: 'cut', link: 'high → 熱氣球', pos: '62% 30%', zoom: [1.15, 1.3], pan: [0, 3, 0, -3]},
   {img: '18_birds', at: HIGHS[1] / BAR, t: 'cut', link: 'high → 更高的鳥群（第三個 high 打一下推鏡）', pos: '30% 35%', zoom: [1.1, 1.3], pan: [0, 3, 0, -3]},
-  {img: '19_hand', at: 24, t: 'fade', link: '飛向天空 → 伸向天空的手 “you rescue me”', pos: '50% 50%', zoom: [1.2, 1.05]},
-  {img: '20_lighthouse', at: 25, t: 'fade', link: '伸出的手 → 黑暗裡伸出的光', pos: '50% 40%', zoom: [1.05, 1.18]},
+  {img: '19_hand', at: 24, t: 'fade', link: '飛向天空 → 從沙裡伸向天空、像手一樣的枯木，海平線上有船來了 “you rescue me”', pos: '0% 55%', zoom: [1.08, 1.0]},
+  {img: '20_lighthouse', at: 25, t: 'fade', link: '遠處的船 → 為船指路的燈塔：黑暗裡伸出的光', pos: '50% 40%', zoom: [1.05, 1.18]},
   {img: '21_lifebuoy', at: 26, t: 'iris', link: '燈塔的救援 → 救生圈（圓）', pos: '20% 50%', zoom: [1.1, 1.25], iris: [35, 50]},
   {img: '22_sunrise', at: 27, t: 'iris', link: '救生圈的圓 → 太陽的圓：得救了', pos: '50% 45%', zoom: [1.05, 1.2], iris: [60, 40]},
   // ⑤ End — 回到星空，閉環
